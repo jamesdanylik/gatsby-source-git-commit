@@ -1,0 +1,23 @@
+{
+  "name": "gatsby-source-git-commit",
+  "version": "0.0.1",
+  "description": "A gatsby source plugin to include the git commit hash within a GraphQL node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Danylik <james.danylik@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jamesdanylik/gatsby-source-git-commit.git"
+  }
+}
