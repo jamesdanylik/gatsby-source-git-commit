@@ -40,7 +40,7 @@ exports.sourceNodes = ({ actions, createNodeId}, configOptions) => {
 	reject("Error in child process")
       }
 
-      const buildId = process.env.TRAVIS_BUILD_ID ? process.env.TRAIVS_BUILD_ID : "--"
+      const buildId = process.env.TRAVIS_BUILD_ID ? process.env.TRAVIS_BUILD_ID : "--"
       const buildNum = process.env.TRAVIS_BUILD_NUMBER ? process.env.TRAVIS_BUILD_NUMBER : "--"
 
       processNode({

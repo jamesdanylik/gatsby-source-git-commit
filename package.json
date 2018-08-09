@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-git-commit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A gatsby source plugin to include the git commit hash within a GraphQL node.",
   "main": "index.js",
   "scripts": {
